@@ -48,7 +48,10 @@ class BT():
         self._icon.addPixmap(QPixmap(png))
         self.setIcon(self._icon)
         self.setStyleSheet('background-color: transparent;')
-        "'self.clicked.connect(self.BT.ATALHOS('https://www.facebook.com'))'" ##AttributeError: 'QToolButton' object has no attribute 'BT'
+ ### COMO TORNAR ISSO POSSIVEL ????????????????####################################################
+       "'self.clicked.connect(self.BT.ATALHOS('https://www.facebook.com'))'" ##AttributeError: 'QToolButton' object has no attribute 'BT'
+        ####################################################
+
     def SIZEFIX(self):
         self.setIconSize(QSize(30, 30))  # fix facebook icon
 
